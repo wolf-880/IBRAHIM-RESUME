@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IBRAHIM ELTAWIL — CV</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ===== NAV ===== -->
+<nav>
+  <a href="#" class="nav-logo">IE</a>
+  <ul class="nav-links">
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="nav-burger" id="burger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile drawer -->
+<div class="nav-drawer" id="drawer">
+  <a href="#projects" class="drawer-link">Projects</a>
+  <a href="#certifications" class="drawer-link">Certifications</a>
+  <a href="#contact" class="drawer-link">Contact</a>
+</div>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <video class="hero-video" autoplay muted loop playsinline>
+    <source src="hero-bg.mp4" type="video/mp4">
+  </video>
+  <div class="hero-overlay"></div>
+  <div class="hero-grid"></div>
+  <div class="glitch-line"></div>
+  <div class="glitch-line"></div>
+  <div class="glitch-line"></div>
+  <div class="hero-watermark">ELTAWIL</div>
+
+  <div class="hero-content">
+    <div class="hero-tag">Cybersecurity Specialist — Portfolio 2025</div>
+    <h1 class="hero-h1">
+      IBRAHIM<br>
+      <span class="name-cyan">ELTAWIL</span>
+    </h1>
+    <p class="hero-sub">
+      <strong>Ethical Hacker · SOC Analyst · Cloud Security</strong><br>
+      Defending digital infrastructure through offensive thinking, forensic precision, and security operations expertise.
+    </p>
+    <div class="hero-ctas">
+      <a href="#certifications" class="btn-primary">View My Skills</a>
+      <a href="#projects" class="btn-secondary">
+        <span class="play-icon">▶</span>
+        Watch Projects
+      </a>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <span class="scroll-line"></span>
+    Scroll to explore
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section id="projects">
+  <div class="section-inner">
+    <div class="section-label">02 / Selected Works</div>
+    <h2 class="section-title">Featured <span>Projects</span></h2>
+
+    <div class="projects-grid">
+
+      <div class="project-card featured reveal">
+        <div>
+          <div class="project-num">PROJECT_01 / FEATURED</div>
+          <div class="project-title">Network Penetration Testing Lab</div>
+          <p class="project-desc">
+            Designed and executed a full penetration test on a simulated enterprise network. Conducted OSINT, vulnerability scanning, exploitation, and post-exploitation phases, producing a professional pentest report with remediation recommendations.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Kali Linux</span>
+            <span class="tag">Metasploit</span>
+            <span class="tag">Nmap</span>
+            <span class="tag">Burp Suite</span>
+            <span class="tag">Wireshark</span>
+          </div>
+          <a href="#" class="project-link">Explore Project</a>
+        </div>
+        <div class="featured-visual">🔐</div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">PROJECT_02</div>
+        <div class="project-icon">🛡️</div>
+        <div class="project-title">SOC Incident Response Simulation</div>
+        <p class="project-desc">
+          Built a home SOC lab using SIEM tools to detect, analyze, and respond to real-world attack patterns including phishing, lateral movement, and ransomware.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Splunk</span><span class="tag">SIEM</span><span class="tag">Snort</span>
+        </div>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">PROJECT_03</div>
+        <div class="project-icon">🔬</div>
+        <div class="project-title">Digital Forensics Investigation</div>
+        <p class="project-desc">
+          Performed disk and memory forensics on a compromised system. Recovered deleted artifacts, analyzed malware behavior, and produced a forensic timeline of the attack chain.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Autopsy</span><span class="tag">Volatility</span><span class="tag">FTK</span>
+        </div>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">PROJECT_04</div>
+        <div class="project-icon">☁️</div>
+        <div class="project-title">Oracle Cloud Security Hardening</div>
+        <p class="project-desc">
+          Assessed and hardened an OCI environment following CIS benchmarks. Implemented IAM policies, security zones, and Cloud Guard rules to reduce attack surface.
+        </p>
+        <div class="project-tags">
+          <span class="tag">OCI</span><span class="tag">IAM</span><span class="tag">CIS Benchmark</span>
+        </div>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">PROJECT_05</div>
+        <div class="project-icon">📡</div>
+        <div class="project-title">Social Engineering Awareness Campaign</div>
+        <p class="project-desc">
+          Designed a phishing simulation and security awareness program. Crafted realistic pretexts, tracked click rates, and delivered training to reduce human risk.
+        </p>
+        <div class="project-tags">
+          <span class="tag">GoPhish</span><span class="tag">OSINT</span><span class="tag">Awareness</span>
+        </div>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== CERTIFICATIONS ===== -->
+<section id="certifications">
+  <div class="section-inner">
+    <div class="section-label">03 / Credentials</div>
+    <h2 class="section-title">My <span>Certifications</span></h2>
+
+    <div class="certs-grid">
+
+      <div class="cert-card reveal">
+        <div class="cert-issuer">Cisco Networking Academy</div>
+        <div class="cert-name">Ethical Hacker</div>
+        <div class="cert-date">Issued: 30 Dec 2025</div>
+      </div>
+
+      <div class="cert-card reveal">
+        <div class="cert-issuer">Cisco × Coursera</div>
+        <div class="cert-name">Security Operations Center (SOC)</div>
+        <div class="cert-date">Issued: Feb 27, 2026</div>
+        <a href="https://coursera.org/verify/C9J9AATLNZUY" class="cert-verify" target="_blank" rel="noopener">Verify</a>
+      </div>
+
+      <div class="cert-card reveal">
+        <div class="cert-issuer">Packt × Coursera</div>
+        <div class="cert-name">CompTIA CySA+ Cybersecurity Analyst (CS0-003)</div>
+        <div class="cert-date">Issued: Feb 27, 2026</div>
+        <a href="https://coursera.org/verify/1KDZ36H2RUYR" class="cert-verify" target="_blank" rel="noopener">Verify</a>
+      </div>
+
+      <div class="cert-card reveal">
+        <div class="cert-issuer">Udemy</div>
+        <div class="cert-name">CompTIA Security+ v7 (SY0-701) Full Certification Course</div>
+        <div class="cert-date">Issued: March 1, 2026 · 31 hours</div>
+      </div>
+
+      <div class="cert-card reveal">
+        <div class="cert-issuer">IBM × Coursera</div>
+        <div class="cert-name">Incident Response and Digital Forensics</div>
+        <div class="cert-date">Issued: Jan 5, 2026</div>
+        <a href="https://coursera.org/verify/VKPINF3YLFE7" class="cert-verify" target="_blank" rel="noopener">Verify</a>
+      </div>
+
+      <div class="cert-card reveal">
+        <div class="cert-issuer">Oracle University</div>
+        <div class="cert-name">Oracle Cloud Infrastructure 2025 Certified Foundations Associate</div>
+        <div class="cert-date">Issued: July 31, 2025</div>
+      </div>
+
+      <div class="cert-card reveal">
+        <div class="cert-issuer">Great Learning</div>
+        <div class="cert-name">Cyber Forensics</div>
+        <div class="cert-date">Issued: Dec 30, 2025</div>
+        <a href="https://www.mygreatlearning.com/certificate/BSINDSCB" class="cert-verify" target="_blank" rel="noopener">Verify</a>
+      </div>
+
+      <div class="cert-card reveal">
+        <div class="cert-issuer">Google · IAB Europe · The Open University</div>
+        <div class="cert-name">Google Digital Marketing Fundamentals</div>
+        <div class="cert-date">Issued: 05/05/2021</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-name">IBRAHIM<br><span>ELTAWIL</span></div>
+        <div class="footer-tagline">// Ethical Hacker · SOC Analyst · Cloud Security</div>
+        <div class="contact-block">
+          <h3>// Direct Contact</h3>
+          <div class="contact-row"><span class="clabel">Email</span>tawlibrahim35@gmail.com</div>
+          <div class="contact-row"><span class="clabel">Phone</span>+218 913583812</div>
+          <div class="contact-row"><span class="clabel">Location</span>Tripoli,Libya / Available for Remote Opportunities</div>
+        </div>
+      </div>
+
+      <div class="social-col">
+        <h3>// Connect Online</h3>
+
+        <a href="https://www.linkedin.com/in/%D8%A7%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85-%D8%B7%D8%A7%D8%B1%D9%82-%D8%A7%D9%84%D8%B7%D9%88%D9%8A%D9%84-492b693a3/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bp0DV3kJuSyyo87H8hUlFsg%3D%3D" class="social-item">
+          <div class="social-left">
+            <div class="sicon">in</div>
+            <div><div class="sname">LinkedIn</div><div class="shandle">@ibrahim-eltawil</div></div>
+          </div>
+          <div class="sarrow">→</div>
+        </a>
+
+        <a href="https://github.com/wolf-880" class="social-item">
+          <div class="social-left">
+            <div class="sicon">GH</div>
+            <div><div class="sname">GitHub</div><div class="shandle">@ibrahimeltawil</div></div>
+          </div>
+          <div class="sarrow">→</div>
+        </a>
+
+        <a href="https://x.com/IbrahimEI4" class="social-item">
+          <div class="social-left">
+            <div class="sicon">X</div>
+            <div><div class="sname">X / Twitter</div><div class="shandle">@IbrahimEL4</div></div>
+          </div>
+          <div class="sarrow">→</div>
+        </a>
+
+        <a href="https://www.facebook.com/ibrahim.tawel.177459" class="social-item">
+          <div class="social-left">
+            <div class="sicon">TG</div>
+            <div><div class="sname">Facebook</div><div class="shandle">@ibrahimeltawil</div></div>
+          </div>
+          <div class="sarrow">→</div>
+        </a>
+
+        <a href="https://www.instagram.com/tawel_ibrahim/" class="social-item">
+          <div class="social-left">
+            <div class="sicon">▶</div>
+            <div><div class="sname">Instagram</div><div class="shandle">Ibrahim Eltawil</div></div>
+          </div>
+          <div class="sarrow">→</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2026 IBRAHIM ELTAWIL — ALL RIGHTS RESERVED</div>
+      <div class="status"><div class="dot"></div>AVAILABLE FOR WORK</div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
